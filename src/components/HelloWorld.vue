@@ -14,7 +14,7 @@ const form = ref({
 const products = ref([]);
 const isUpdating = ref(false); // Flag to toggle between add and update modes
 
-let url = "https://backend-pimphand-pimphands-projects.vercel.app/api/products";
+let url = "http://128.199.141.199:3000/api/products";
 // Fetch products from the backend
 const fetchProducts = async () => {
   try {

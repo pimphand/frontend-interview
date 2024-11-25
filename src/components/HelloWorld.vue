@@ -14,7 +14,7 @@ const form = ref({
 const products = ref([]);
 const isUpdating = ref(false); // Flag to toggle between add and update modes
 
-let url = "http://128.199.141.199:3000/api/products";
+let url = "https://backend.dmpt.my.id/api/products";
 // Fetch products from the backend
 const fetchProducts = async () => {
   try {
